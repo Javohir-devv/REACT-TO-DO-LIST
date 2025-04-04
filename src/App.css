@@ -1,0 +1,104 @@
+.logo{
+  font-family: "Boldonse", system-ui;
+  margin-top: 0;
+  color: #2E4052;
+}
+.container{
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5.5px);
+  border-radius: 10px ;
+  border:  1px solid rgba(255, 255, 255, 0.18);
+  width: 500px;
+}
+.input-wrapper{
+  font-family: "Gidole", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.input-wrapper input{
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color:#2E4052;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(50px);
+  
+}
+.input-wrapper button{
+  border-radius: 20px;
+  border: none;
+  font-size: 16px ;
+  color: white;   
+  padding: 10px 20px;
+  background-color: #FFC857;
+  transition: all .3s;
+  cursor: pointer;
+
+}
+.input-wrapper button:hover{
+  background-color: #dba100;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  height: 400px;
+  overflow-y: scroll;
+}
+li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color:rgba(255, 255, 255, 0.2) ;
+  backdrop-filter: blur(15px);
+  border-radius: 5px ;
+  margin-bottom: 10px;
+  font-family: "Merriweather", serif;
+  color: #2E4052;
+
+
+}
+
+.manage-btns{
+  display:flex;
+  align-items: center;
+  gap: 10px     ;
+}
+.manage-btns button{
+  padding: 10px 20px;
+  gap: 10px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
+.manage-btns .del{
+  background-color: #c1121f;
+}
+.edit{
+  background-color: #7fb800;
+}
+
+
+/* scrooll */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+.notFound{
+  display: block;
+  background-color: rgba(255, 255, 255, 0.2) ;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #2E4052;
+  font-family: "Merriweather", serif;
+  font-size: 20px
+}

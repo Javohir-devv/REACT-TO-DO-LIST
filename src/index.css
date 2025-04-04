@@ -1,0 +1,13 @@
+body{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-image: url(images/beautiful-anime-landscape-cartoon-scene.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
